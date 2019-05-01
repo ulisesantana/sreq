@@ -1,0 +1,33 @@
+{
+  "name": "sreq",
+  "version": "1.0.0",
+  "description": "A Simple Request handler ",
+  "main": "build/index.js",
+  "files": [
+    "lib/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "jest",
+    "test:coverage": "jest --collectCoverage",
+    "test:tdd": "npm t -- --watch"
+  },
+  "keywords": [
+    "request",
+    "http"
+  ],
+  "author": "Ulises Santana <ulisesantana@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^24.0.12",
+    "@types/node": "^11.13.8",
+    "@types/request": "^2.48.1",
+    "jest": "^24.7.1",
+    "npm-analyze": "^1.1.0",
+    "supertest": "^4.0.2",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.5"
+  }
+}
